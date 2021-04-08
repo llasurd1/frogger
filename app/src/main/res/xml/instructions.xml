@@ -7,7 +7,7 @@
     android:orientation="vertical"
 
     android:padding="16dp"
-    tools:context=".leaderboard">
+    tools:context=".instructions">
 
     <TextView
         android:id = "@+id/text_view"
@@ -15,17 +15,18 @@
         android:layout_height="wrap_content"
         android:textSize="50dp"
         android:gravity="center"
-        android:hint = "LEADERBOARD" />
+        android:hint = "INSTRUCTIONS" />
 
-    <ListView
-        android:id="@+id/todo_list"
-        android:layout_width="wrap_content"
-        android:layout_height="500dp"
-        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id = "@+id/text_instructions"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:hint = "The rules are simple, tap to move the frog and dodge the cars for as long as you can." />
 
     <Button
         android:id = "@+id/button_leaderboards_back"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text = "BACK"
